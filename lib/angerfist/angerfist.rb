@@ -4,6 +4,7 @@ module Rack
       @app = app
       @gabba = Gabba::Gabba.new(config[:tracker_id], config[:domain])
       @content_types = config[:content_types]
+      @paths = config[:paths]
     end
 
     def call env
@@ -12,7 +13,7 @@ module Rack
 
       @headers = Rack::Utils::HeaderHash.new(headers)
 
-      if content_type_matches?
+      if content_type_matches? && path_matches?
         @gabba.page_view(full_path, full_path)
       end
 
@@ -23,6 +24,12 @@ module Rack
       return true unless @content_types
 
       @content_types.include?(@headers['CONTENT-TYPE'])
+    end
+
+    def path_matches?
+      return true unless @paths
+
+      @paths.any? { |p| @env['PATH_INFO'].include?(p) }
     end
 
     def full_path
