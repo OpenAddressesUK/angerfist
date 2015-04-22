@@ -1,31 +1,5 @@
-# Angerfist
-
-TODO: Write a gem description
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'angerfist'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install angerfist
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/angerfist/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+[![Dependency Status](http://img.shields.io/gemnasium/OpenAddressesUK/angerfist.svg)](https://gemnasium.com/OpenAddressesUK/angerfist)
+[![Code Climate](http://img.shields.io/codeclimate/github/OpenAddressesUK/angerfist.svg)](https://codeclimate.com/github/OpenAddressesUK/angerfist)
+[![Gem Version](http://img.shields.io/gem/v/angerfist.svg)](https://rubygems.org/gems/angerfist)
+[![License](http://img.shields.io/:license-mit-blue.svg)](http://OpenAddressesUK.mit-license.org)
+[![Badges](http://img.shields.io/:badges-5/5-ff6799.svg)](https://github.com/badges/badgerbadgerbadger)
