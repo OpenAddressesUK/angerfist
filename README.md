@@ -1,5 +1,6 @@
+[![Build Status](http://img.shields.io/travis/OpenAddressesUK/angerfist.svg)](https://travis-ci.org/OpenAddressesUK/angerfist)
 [![Dependency Status](http://img.shields.io/gemnasium/OpenAddressesUK/angerfist.svg)](https://gemnasium.com/OpenAddressesUK/angerfist)
 [![Code Climate](http://img.shields.io/codeclimate/github/OpenAddressesUK/angerfist.svg)](https://codeclimate.com/github/OpenAddressesUK/angerfist)
 [![Gem Version](http://img.shields.io/gem/v/angerfist.svg)](https://rubygems.org/gems/angerfist)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://OpenAddressesUK.mit-license.org)
-[![Badges](http://img.shields.io/:badges-5/5-ff6799.svg)](https://github.com/badges/badgerbadgerbadger)
+[![Badges](http://img.shields.io/:badges-6/6-ff6799.svg)](https://github.com/badges/badgerbadgerbadger)
