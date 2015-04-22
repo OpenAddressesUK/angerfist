@@ -1,5 +1,5 @@
-require "angerfist/version"
+require 'rack'
+require 'gabba'
 
-module Angerfist
-  # Your code goes here...
-end
+require "angerfist/version"
+require "angerfist/angerfist"
