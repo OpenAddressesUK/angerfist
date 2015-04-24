@@ -94,11 +94,3 @@ Rails.application.config.middleware.use(Rack::Angerfist, config)
 ## Licence
 
 The code is open source under the MIT license. See the LICENSE.md file for full details.
-
-## Angerfist?
-
-This guy:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/x5pR0lC589Y" frameborder="0" allowfullscreen></iframe>
-
-He makes gabba - geddit?
