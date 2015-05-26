@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['tech@openaddressesuk.org']
   spec.summary       = %q{Rack middleware for Google Analytics tracking server-side}
   spec.description   = %q{Rack middleware for Google Analytics tracking server-side}
-  spec.homepage      = ''
+  spec.homepage      = 'https://github.com/OpenAddressesUK/angerfist'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")
